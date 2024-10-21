@@ -26,6 +26,10 @@ else if(data.weather[0].main=="Clear")
 {
     weatherIcon.src="Images/clear.png"
 }
+    else if(data.weather[0].main=="Haze")
+    {
+        weatherIcon.src="haze.png"
+    }
 else if(data.weather[0].main=="Drizzle")
 {
     weatherIcon.src="Images/drizzle.png"
