@@ -44,3 +44,6 @@ searchBox.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
         event.preventDefault(); 
         checkweather(searchBox.value);
+         }
+});
+
